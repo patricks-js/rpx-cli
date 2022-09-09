@@ -14,9 +14,10 @@ def rpx():
 @click.command(name="vite")
 @click.option("-n", "--name", prompt="Enter name", default="app", help="Name of the application!")
 @click.option("-t", "--template", prompt="Enter template", default="react-ts", help="Template of the application! Ex: react-ts (default) or react")
-def create_project(name, template):
-    from .scripts.cp import c_project
-    c_project(name, template)
+@click.option("-s", "--style", prompt="Enter type style", default="styled-components", help="Style of the application! Ex: styled-components (default) or tailwindcss")
+def create_project(name, template, style):
+    from scripts.cp import c_project
+    c_project(name, template, style)
 
 
 @click.command(name="component")
