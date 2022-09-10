@@ -8,7 +8,7 @@ setup(
     packages=find_packages(),
     autor_email="lucas.patrick.lsilva@gmail.com",
     author="Lucas Patrick",
-    description="description",
+    description="CLI for react projects",
     long_description=readme,
     long_description_content_type="text/markdown",
     license="MIT License",
