@@ -4,7 +4,7 @@ with open("README.md", "r") as arq:
     readme = arq.read()
 
 setup(
-    name="rpx",
+    name="rpx_cli",
     packages=find_packages(),
     autor_email="lucas.patrick.lsilva@gmail.com",
     author="Lucas Patrick",
