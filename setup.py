@@ -5,7 +5,7 @@ setup(
     packages=find_packages(),
     install_requires=[
         "click",
-        "requests"
+        "pathlib"
     ],
     version="1.0.0",
     entry_points="""

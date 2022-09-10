@@ -50,8 +50,9 @@ def create_project(name, template, style):
 @click.option("-n", "--name", prompt="Enter component name", help="Name of the component")
 def create_component(name):
     from scripts.cc import c_component
-    is_tsx = True if f"{path_project}/src/main.tsx" else False
-    c_component(name, path_project, is_tsx)
+    src = path_project / "src"
+    suffix_file = list(src.glob("main.*"))[0].suffix
+    c_component(name, path_project, suffix_file)
 
 
 rpx.add_command(create_project)
