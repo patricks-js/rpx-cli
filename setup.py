@@ -5,6 +5,7 @@ setup(
     packages=find_packages(),
     email='lucas.patrick.lsilva@gmail.com',
     author='Lucas Patrick',
+    description="description",
     install_requires=[
         "click",
     ],
