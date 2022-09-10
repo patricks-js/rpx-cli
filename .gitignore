@@ -16,3 +16,8 @@ env.bak/
 venv.bak/
 
 .mypy_cache/
+*.spec
+*.log
+dist
+build
+*.txt
