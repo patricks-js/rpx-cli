@@ -5,7 +5,7 @@ with open("README.md", "r") as arq:
 
 setup(
     name="rpx_cli",
-    packages=["rpx"],
+    packages=["module"],
     # packages=find_packages(),
     autor_email="lucas.patrick.lsilva@gmail.com",
     author="Lucas Patrick",
@@ -17,6 +17,6 @@ setup(
     version="0.0.9",
     entry_points="""
     [console_scripts]
-    rpx=rpx:rpx
+    rpx=module.rpx:rpx
     """
 )
