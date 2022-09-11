@@ -93,7 +93,3 @@ def create_component(name):
 
 rpx.add_command(create_project)
 rpx.add_command(create_component)
-
-if __name__ == '__main__':
-    # rpx(prog_name='rpx')
-    rpx()
