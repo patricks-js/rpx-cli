@@ -13,9 +13,9 @@ setup(
     long_description_content_type="text/markdown",
     license="MIT License",
     install_requires=["click", "pathlib"],
-    version="0.0.6",
+    version="0.0.7",
     entry_points="""
     [console_scripts]
-    rpx=__init__.__main__:rpx
+    rpx=rpx.__main__:rpx
     """
 )
