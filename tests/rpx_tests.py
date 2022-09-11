@@ -1,7 +1,7 @@
 import unittest
 
 from click.testing import CliRunner
-from rpx_cli import rpx
+from rpx import rpx
 
 
 class RpxTests(unittest.TestCase):

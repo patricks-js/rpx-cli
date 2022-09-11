@@ -1,1 +1,1 @@
-from rpx_cli import rpx
+from rpx import rpx
