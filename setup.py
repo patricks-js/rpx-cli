@@ -13,7 +13,7 @@ setup(
     long_description_content_type="text/markdown",
     license="MIT License",
     install_requires=["click", "pathlib"],
-    version="0.0.2",
+    version="0.0.3",
     entry_points="""
     [console_scripts]
     rpx=rpx:rpx
